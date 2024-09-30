@@ -14,7 +14,10 @@ def findPairs(l1, l2):
             (count, j) = (count+len(l1)-i, j+1)
     return count
 
-def divisibleSumPairs(n, k, ar):
+def divisibleSumPairsMethod1(n, k, ar):
+    """
+    Total time complexity : O(n)
+    """
     keys_dict = dict()
     count = 0
     """
@@ -39,4 +42,15 @@ def divisibleSumPairs(n, k, ar):
                 count = count + findPairs(keys_dict[ar[x]], keys_dict[arx_pair])
                 keys_dict[arx_pair][0] = 1
 
+    return count
+
+def divisibleSumPairsMethod2(n, k, ar):
+    """
+    Total time complexity : O(n^2)
+    """
+    count = 0
+    for i in range(len(ar)):
+        for j in range(i+1, len(ar)):
+            if (ar[i] + ar[j]) % k == 0:
+                count += 1
     return count
