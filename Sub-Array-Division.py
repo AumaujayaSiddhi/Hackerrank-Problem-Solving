@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/the-birthday-bar?isFullScreen=true
 def birthday(s, d, m):
     (i, j, count, summ, diff) = (0, 0, 0, 0, 0)
     while j < len(s):

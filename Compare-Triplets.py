@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/compare-the-triplets?isFullScreen=true
 def compareTriplets(a, b):
     result = [0,0]
     for x,y in zip(a, b):

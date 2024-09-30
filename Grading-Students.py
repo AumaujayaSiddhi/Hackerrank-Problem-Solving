@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/grading?isFullScreen=true
 def gradingStudents(grades):
     for grade_index in range(len(grades)):
         diff = (5 - grades[grade_index] % 5)

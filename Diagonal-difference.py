@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/diagonal-difference?isFullScreen=true
 def diagonalDifference(arr, n):
     left_sum = 0
     right_sum = 0

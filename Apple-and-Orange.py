@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/apple-and-orange?isFullScreen=true
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     (n_apples, n_oranges) = (0, 0)
     for x in apples:

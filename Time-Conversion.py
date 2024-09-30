@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/time-conversion?isFullScreen=true
 def timeConversion(s):
     timeline = s[-2:]
     time = s[0:len(s)-2].split(":")

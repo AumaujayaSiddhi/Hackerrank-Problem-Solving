@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/mini-max-sum?isFullScreen=true
 def miniMaxSum(arr):
     (min_ele, max_ele) = (arr.index(min(arr)), arr.index(max(arr)))
     (min_sum, max_sum) = (0, 0)

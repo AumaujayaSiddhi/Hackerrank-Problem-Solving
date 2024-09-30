@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/append-and-delete?isFullScreen=true
 def appendAndDelete(s, t, k):
     (x, y) = (0, 0)
     while x<len(s) and y<len(t):
